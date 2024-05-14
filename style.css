@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family+Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: goldenrod;
+}
+
+.wrapper {
+    width: 420px;
+    background: rgb(49, 49, 255);
+    color:aliceblue;
+}
+
+.wrapper h3 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    width: 100%;
+    height: 50px;
+    background: goldenrod;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+}
+
+.input-box input::placeholder {
+    color: #fff;
+}
+h1{
+    color: black;
+    border: 1px solid black;
+    background-color: aliceblue;
+    text-align: center;
+}
+.big{
+    color: black
+
+}
+
+body{
+    background-image: url(./abstract-background-modern-hipster-futuristic-graphic-yellow-background-with-stripes-abstract-background-texture-design-bright-poster-banner-yellow-and-blue-background-illustration-free-vector.jpg);
+    background-size: cover;
+}
+
+

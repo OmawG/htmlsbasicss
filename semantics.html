@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, section, article, footer {
+            border: 1px solid #ddd;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+        header, footer{
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            margin: 5px;
+        }
+        nav{
+            background-color: #f0f0f0;
+            padding: 10px;
+            margin: 5px;
+        }
+        nav ul{
+            text-align: center;
+        }
+        nav ul li a{
+            font-size: 15px;
+            text-decoration: none;
+            padding: 0px;
+            color: black;
+            padding: 10px;
+        }
+        nav ul li a.current{
+            background-color: #b20f0f;
+        }
+        nav ul li a:hover{
+            background-color: gray;
+        }
+        nav ul li{
+            display: inline;
+        }
+        section{
+            background-color: #f9f9f9;
+            padding: 10px;
+            margin: 5px;
+        }
+        article{
+            background-color: #eaeaea;
+            padding: 10px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sample Website</h1>
+        <p>Welcome to our sample website.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <h1>I am an article.</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius architecto exercitationem molestias, tempora voluptate quas?</p>
+        </article>
+
+        <section>
+            <h1>I am an section.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, doloremque.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Footer &copy</p>
+    </footer>
+</body>
+</html>
